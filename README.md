@@ -7,6 +7,7 @@ Assume you are a data engineer working with Google, and you have been tasked wit
 The Oracle database has the following connection details:
 
 Hostname: 10.197.54.90
+
 Username: ml_user
 
 Password: g@@gle2023#
@@ -18,15 +19,23 @@ Port: 1521
 The PostgreSQL connection details are:
 
 Hostname: 10.195.56.32
+
 Database name: postgre_data
+
 Port: 5432
+
 Password: post@google
+
 Username: ml_user
+
 The Cassandra connection details are:
 
 Hostname: 10.97.65.12
+
 Username: ml_user
+
 Port: 9042
+
 Password: cassand@google
 
 The goal of the project is to replicate data from the source databases to the Oracle database using Rubyrep. The data should be replicated incrementally to ensure that updates are captured in real-time. No transformations are required on either of the tables, and the data should be replicated as is from the source.
