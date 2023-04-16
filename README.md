@@ -8,9 +8,13 @@ The Oracle database has the following connection details:
 
 Hostname: 10.197.54.90
 Username: ml_user
+
 Password: g@@gle2023#
+
 Database: learning_projects
+
 Port: 1521
+
 The PostgreSQL connection details are:
 
 Hostname: 10.195.56.32
