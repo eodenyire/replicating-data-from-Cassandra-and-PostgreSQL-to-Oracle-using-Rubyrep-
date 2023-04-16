@@ -1,0 +1,16 @@
+left:
+  adapter: postgresql
+  host: "10.195.56.32"
+  database: "postgre data"
+  port: 5432
+  username: "ml_user"
+  password: "post@google"
+  table: "YouTube_Artists"
+
+right:
+  adapter: oracle
+  database: "learning projects"
+  host: "10.197.54.90"
+  username: "ml_user"
+  password: "g@@gle2023#"
+  table: "YouTube_Artists"

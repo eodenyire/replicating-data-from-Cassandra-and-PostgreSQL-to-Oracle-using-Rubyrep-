@@ -1,0 +1,15 @@
+left:
+  adapter: cassandra
+  hosts: ["10.97.65.12"]
+  keyspace: "my_keyspace"
+  username: "ml_user"
+  password: "cassand@google"
+  table: "Trending_Topics"
+
+right:
+  adapter: oracle
+  database: "learning projects"
+  host: "10.197.54.90"
+  username: "ml_user"
+  password: "g@@gle2023#"
+  table: "Trending_Topics"

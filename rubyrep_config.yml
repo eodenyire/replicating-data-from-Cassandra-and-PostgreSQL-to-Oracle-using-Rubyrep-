@@ -1,0 +1,124 @@
+replicate 'Trending_Topics' do
+  # Cassandra connection details
+  left_host '10.97.65.12'
+  left_user 'ml_user'
+  left_password 'cassand@google'
+  left_database 'my_keyspace'
+  left_port 9042
+
+  # Oracle connection details
+  right_host '10.197.54.90'
+  right_user 'ml_user'
+  right_password 'g@@gle2023#'
+  right_database 'learning projects'
+  right_port 1521
+
+  # Primary key column name
+  key 'id'
+
+  # Include all columns
+  compare_all_columns
+
+  # Define chunk size for incremental replication
+  chunk_size 500
+end
+
+replicate 'Subscriptions' do
+  # Cassandra connection details
+  left_host '10.97.65.12'
+  left_user 'ml_user'
+  left_password 'cassand@google'
+  left_database 'my_keyspace'
+  left_port 9042
+
+  # Oracle connection details
+  right_host '10.197.54.90'
+  right_user 'ml_user'
+  right_password 'g@@gle2023#'
+  right_database 'learning projects'
+  right_port 1521
+
+  # Primary key column name
+  key 'id'
+
+  # Include all columns
+  compare_all_columns
+
+  # Define chunk size for incremental replication
+  chunk_size 500
+end
+
+replicate 'Products' do
+  # PostgreSQL connection details
+  left_host '10.195.56.32'
+  left_user 'ml_user'
+  left_password 'post@google'
+  left_database 'postgre data'
+  left_port 5432
+
+  # Oracle connection details
+  right_host '10.197.54.90'
+  right_user 'ml_user'
+  right_password 'g@@gle2023#'
+  right_database 'learning projects'
+  right_port 1521
+
+  # Primary key column name
+  key 'id'
+
+  # Include all columns
+  compare_all_columns
+
+  # Define chunk size for incremental replication
+  chunk_size 500
+end
+
+replicate 'Google Certified Professionals' do
+  # PostgreSQL connection details
+  left_host '10.195.56.32'
+  left_user 'ml_user'
+  left_password 'post@google'
+  left_database 'postgre data'
+  left_port 5432
+
+  # Oracle connection details
+  right_host '10.197.54.90'
+  right_user 'ml_user'
+  right_password 'g@@gle2023#'
+  right_database 'learning projects'
+  right_port 1521
+
+  # Primary key column name
+  key 'id'
+
+  # Include all columns
+  compare_all_columns
+
+  # Define chunk size for incremental replication
+  chunk_size 500
+end
+
+replicate 'YouTube_Artists' do
+  # PostgreSQL connection details
+  left_host '10.195.56.32'
+  left_user 'ml_user'
+  left_password 'post@google'
+  left_database 'postgre data'
+  left_port 5432
+
+  # Oracle connection details
+  right_host '10.197.54.90'
+  right_user 'ml_user'
+  right_password 'g@@gle2023#'
+  right_database 'learning projects'
+  right_port 1521
+
+  # Primary key column name
+  key 'id'
+
+  # Include all columns
+  compare_all_columns
+
+  # Define chunk size for incremental replication
+  chunk_size 500
+end
